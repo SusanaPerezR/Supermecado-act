@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contactos </title>
+</head>
+<body>
+   <center>
+    <h1> Contactanos </h1>
+       <p> Para tener el gusto de atenderte </p>
+       <a href="../inicio.html"> Inicio </a> <br>
+       <img src="../imagenes/Contactos.jpg " width="50%" alt=""> <br>
+       <form> 
+           <label> Escribe tu nombre </label> <br>
+          <input requierd  name="nombre" type="text" placeholder=" Solo nombre y apellido "> <br>
+          <label> Escribe tu edad </label> <br>
+          <input name="edad" type="number" min="18" max="55"> <br>
+          <label> Escribe tu telefono </label> <br>
+          <input name="telefono" type="tel"> <br>
+          <label> Fecha de nacimiento </label> <br>
+          <input type="date" min="2004-12-31" max="2023-12-31"> <br>
+          <input value="hombre" name="genero" type="radio"> Hombre
+          <input value="mujer" name="genero" type="radio"> Mujer
+          <input value="binario" name="genero" type="radio"> Binario
+          <input value="otro" name="genero" type="radio"> No se
+          <label> Selecciona fruta </label><br>
+          <input name="fruta" type="checkbox">Bananos
+          <input name="fruta" type="checkbox"> Fresas
+          <input name="fruta" type="checkbox"> mangos
+          <input name="fruta" type="checkbox"> Otros <br>
+          <label> Escribe tu correo</label> <br>
+          <input type="email"> <br>
+          <label> Escribe tu contraseña </label> <br>
+          <input type="password"><br>
+          <label> Escoge color </label> <br>
+          <input type="color"> <br>
+          <label> Escoge una foto </label>
+          <input type="file" accept=" jpeg, jpg, png, gif"> <br>
+          <label> Como quieras que te contacten</label> <br>
+          <select name="Contacto"> 
+              <option value="humo"> Señales de humo </option>
+              <option value="paloma"> Paloma mensajera </option>
+              <option value="whatsapp"> what´s app</option>
+              <option value="correo"> Correo </option>
+              <option value="telefono"> Telefono </option>
+        </select> <br> <br>
+        <label> Escribe tu mensaje </label> <br>
+        <textarea name="mensaje" cols="30" rows="10"></textarea> <br>
+        <button type="reset">Borrar datos</button>
+        <button type="button">No hace nada</button>
+        <button type="submit">Enviar datos</button>
+
+          
+
+
+       </form>
+       
+
+   </center> 
+</body>
+</html>
